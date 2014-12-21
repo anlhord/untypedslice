@@ -1,7 +1,7 @@
 package main
 
 /*
-TODO: internal compiler error: fault
+FIXME: internal compiler error: fault
 
 func Compar(as, bs *[], a, b int) int8 {
 	if (*as)[a] < (*bs)[b] {

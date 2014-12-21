@@ -1,6 +1,6 @@
 package main
 /*
-tokey.go:8: internal compiler error: fault
+FIXME: tokey.go:8: internal compiler error: fault
 
 // Key produces a Key for the slice i-th element
 func Key(s *[], i int) float64 {
