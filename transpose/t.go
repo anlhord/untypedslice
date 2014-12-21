@@ -1,8 +1,7 @@
 package main
 
 import "fmt"
-/*
-FIXME: t.go:10: tempname called with nil type
+
 func Transpose(matrix [], stride int) (o [], news int) {
 	for i := 0; i < stride; i++ {
 		for j := 0; j < len(matrix); j+=stride {
@@ -11,7 +10,7 @@ func Transpose(matrix [], stride int) (o [], news int) {
 	}
 	return o, len(matrix) / stride
 }
-*/
+
 // BEGIN OF BOILERPLATE
 func TransposeΞfloat32(matrix []float32, stride int) (o []float32, news int) {
 	for i := 0; i < stride; i++ {
