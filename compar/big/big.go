@@ -1,13 +1,11 @@
 package main
 
 import "math/big"
-/*
-FIXME:ints.go:6: internal compiler error: walkexpr: switch 1 unknown op CALL l(6) tc(1)
 
 func Compar(as, bs *[], a, b int) int8 {
 	return int8((*as)[a].Cmp((*bs)[b]))
 }
-*/
+
 // BEGIN OF BOILERPLATE
 func ComparΞbigΞInt(as, bs *[]*big.Int, a, b int) int8 {
 	return int8((*as)[a].Cmp((*bs)[b]))
