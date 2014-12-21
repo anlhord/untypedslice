@@ -12,8 +12,12 @@ type foo struct {
 	Val []
 }
 
+const x = 3
+const y = 3
+
 // FIXME
-//	const z [] = []{1,2,3}
+const z = []{1,2,3}
+
 func main() {
 
 	var a int		
