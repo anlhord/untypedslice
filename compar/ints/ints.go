@@ -1,14 +1,12 @@
 package main
 
-/*
-FIXME: internal compiler error: fault
 
 func Compar(as, bs *[], a, b int) int8 {
 	if (*as)[a] < (*bs)[b] {
 		return -1
 	}
 	return int8((*as)[a] - (*bs)[b])
-}*/
+}
 // BEGIN OF BOILERPLATE
 func ComparΞint(as, bs *[]int, a, b int) int8 {
 	if (*as)[a] < (*bs)[b] {
