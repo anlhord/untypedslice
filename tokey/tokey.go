@@ -1,6 +1,4 @@
 package main
-/*
-FIXME: tokey.go:8: internal compiler error: fault
 
 // Key produces a Key for the slice i-th element
 func Key(s *[], i int) float64 {
@@ -9,7 +7,7 @@ func Key(s *[], i int) float64 {
 	}
 	return float64((*s)[i])
 }
-*/
+
 // Keys produces a Key for the first, last element of a sorted slice
 func Keys(s *[], k func (s *[], i int) (float64)) (float64, float64) {
 	return k(s, 0), k(s, len(*s)-1)
