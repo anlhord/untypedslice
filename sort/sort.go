@@ -8,8 +8,6 @@ func Compar(as, bs *[], a, b int) int8 {
 	return int8(math.Mod(float64((*as)[a]-(*bs)[b]),128.))
 }
 
-/*
-FIXME: sort.go:16: internal compiler error: fault
 func Sort(slice *[], compar func(as, bs *[], a, b int) int8) {
 	for i := 0; i < len(*slice); i++ {
 	for j := 0; j < i; j++ {
@@ -20,7 +18,7 @@ func Sort(slice *[], compar func(as, bs *[], a, b int) int8) {
 		}
 	}}
 }
-*/
+
 // BEGIN OF BOILERPLATE
 func ComparΞfloat32(as, bs *[]float32, a, b int) int8 {
 	return int8(math.Mod(float64((*as)[a]-(*bs)[b]),128.))
