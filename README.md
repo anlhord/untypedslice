@@ -1,8 +1,16 @@
 untypedslice
 ============
 
-tests for Auto typed slice
+Running the examples:
 
-The hacked compiler can be run on these.
+1. Download and install the modified go compiler from:
 
-We should run the type inference engine on these.
+https://github.com/anlhord/go
+
+2. Build some example
+
+cd sort/
+go build
+./sort
+
+3. No errors? It works!
