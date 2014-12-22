@@ -8,9 +8,9 @@ Running the examples:
 https://github.com/anlhord/go
 
 2. Build some example
-
+```
 cd sort/
 go build
 ./sort
-
+```
 3. No errors? It works!
